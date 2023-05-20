@@ -1,0 +1,155 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500&family=MuseoModerno:wght@100;200;300;400;500;600;700;800&family=Open+Sans&family=Poppins:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  width: 408px;
+  height: 552px;
+  margin: 0 auto;
+  background: #f3f6f9;
+  border-radius: 6px;
+}
+
+.brand-img {
+  padding: 16px 106.5px 0 171px;
+}
+
+.menu,
+.cross-ico {
+  padding: 16px 16px 0 0;
+}
+.title {
+  font-size: 16px;
+  color: #23587b;
+}
+
+.limit-container {
+  width: 348px;
+  height: 84px;
+  margin: 24px 20px 0 40px;
+}
+
+.limit-process {
+  width: 100%;
+  height: 44px;
+  margin-top: 24px;
+}
+
+.slider-range::before {
+  content: url(./image/ball.svg);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 25px;
+}
+
+.slider-range {
+  position: relative;
+  width: 100%;
+  height: 8px;
+  background: #ffffff;
+  border: 0.2px solid #b2dff2;
+  box-shadow: inset 0px 0px 2px rgba(178, 223, 242, 0.25);
+  border-radius: 18px;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.value-container {
+  margin-top: 16px;
+}
+
+.primary-budget {
+  font-weight: 400;
+  font-size: 12px;
+  padding-top: 3px;
+  line-height: 100%;
+  color: #5b5b5b;
+}
+
+.secondary-budget {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #ff823e;
+}
+
+.total-budget {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  padding-top: 3px;
+  color: #5b5b5b;
+}
+
+.notify-btn {
+  width: 328px;
+  height: 40px;
+  margin: 24px 40px;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  color: #f3f6f9;
+  background: linear-gradient(91.03deg, #ff6d1e -4.95%, #ff7d36 99.32%);
+  box-shadow: 0px 4px 16px rgba(101, 101, 101, 0.12);
+  border-radius: 6px;
+}
+
+/* Common classes */
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+.item-center {
+  justify-items: center;
+}
+.gap-40 {
+  display: flex;
+  gap: 40px;
+}
+.gap-8 {
+  gap: 8px;
+}
+.pt-4 {
+  padding-top: 40px;
+}
+
+.h-auto {
+  height: auto;
+}
+.w-full {
+  width: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+  line-height: 100%;
+}
+
+.font-4 {
+  font-weight: 400;
+}
+.font-5 {
+  font-weight: 500;
+}
+.font-6 {
+  font-weight: 600;
+}
