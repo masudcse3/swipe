@@ -21,13 +21,119 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.header h2 {
+  color: #23587b;
+  font-family: "Libre Franklin";
+  font-size: 16px;
+  font-weight: 500;
+}
 .close {
   position: relative;
-  right: 30px;
+  right: 20px;
 }
 .go-back {
   position: relative;
   top: 5px;
+}
+.input-field input {
+  width: 100%;
+  height: 40px;
+  background: #d4edf8;
+  border: 1px solid #b2dff2;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  padding: 13px 16px;
+  outline: none;
+}
+.password {
+  margin-top: 14px;
+}
+.input-field input::placeholder {
+  color: #8f8f8f;
+}
+.input-field input:focus,
+.input-field input:active {
+  background: #fff;
+  border: 1px solid #23587b;
+}
+.eye {
+  position: relative;
+  float: right;
+  top: -28px;
+  right: 16px;
+}
+.password-strong {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  top: -6px;
+}
+.line {
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: #e5e5e5;
+}
+.password-strong .active {
+  background: #00be33;
+}
+
+.check-strong ul li {
+  list-style: none;
+  color: #5b5b5b;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 8px 0px;
+  font-family: "Libre Franklin";
+}
+.check-strong ul li::before {
+  content: url("./public/yellow-circle.svg");
+  position: relative;
+  padding-right: 8px;
+}
+.agree-terms {
+  display: flex;
+  align-items: start;
+  font-family: "Libre Franklin";
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #5b5b5b;
+  padding-top: 8px;
+}
+.agree-terms input {
+  border: 1px solid #23587b;
+  border-radius: 2px;
+  margin-right: 8px;
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 4px;
+}
+.privacy p {
+  font-family: "Libre Franklin";
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #5b5b5b;
+  padding-top: 8px;
+}
+.link {
+  color: #ff823e;
+}
+.btn {
+  width: 100%;
+  height: 40px;
+  background: #c2cdd1;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #f3f6f9;
+  font-size: 14px;
+  margin-top: 24px;
 }
 .member {
   font-family: "Libre Franklin";
@@ -35,7 +141,7 @@ body {
   font-size: 12px;
   text-align: center;
   position: relative;
-  top: 80px;
+  top: 16px;
   font-weight: 400;
 }
 .log-in a {
