@@ -1,0 +1,45 @@
+/** @format */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Libre Franklin";
+}
+.main {
+  background-color: #f3f6f9;
+  width: 408px;
+  height: 552px;
+  border-radius: 6px;
+}
+.container {
+  padding: 0 40px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.close {
+  position: relative;
+  right: 30px;
+}
+.go-back {
+  position: relative;
+  top: 5px;
+}
+.member {
+  font-family: "Libre Franklin";
+  color: #5b5b5b;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  font-weight: 400;
+}
+.log-in a {
+  color: #23587b;
+  font-weight: 600;
+  text-decoration: none;
+}

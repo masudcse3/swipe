@@ -1,0 +1,77 @@
+/** @format */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Libre Franklin";
+}
+.main {
+  background-color: #f3f6f9;
+  width: 408px;
+  height: 552px;
+  border-radius: 6px;
+  padding: 18px 40px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.logo {
+  width: 110px;
+  position: relative;
+  left: 100px;
+  top: 10px;
+}
+.close-icon {
+  position: relative;
+  right: -10px;
+  top: 0;
+}
+.title h2 {
+  color: #23587b;
+  font-family: "Libre Franklin";
+  text-align: center;
+  font-size: 18px;
+  padding-top: 38px;
+  padding-bottom: 24px;
+}
+
+.social-row {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 16px;
+  padding: 0px 70px;
+  width: 328px;
+  height: 40px;
+  background: #f3f6f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+}
+.icon {
+  width: 34px;
+}
+.link-text a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Libre Franklin";
+}
+.member {
+  font-family: "Libre Franklin";
+  color: #5b5b5b;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  font-weight: 400;
+}
+.log-in a {
+  color: #23587b;
+  font-weight: 600;
+  text-decoration: none;
+}
