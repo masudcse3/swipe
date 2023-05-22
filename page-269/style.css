@@ -1,0 +1,126 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500&family=MuseoModerno:wght@100;200;300;400;500;600;700;800&family=Open+Sans&family=Poppins:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  width: 213px;
+  height: 272px;
+  margin: 0 auto;
+  background: #f3f6f9;
+  border: 1px solid #c4d4e2;
+  box-shadow: 0px 8px 16px -10px rgba(51, 72, 98, 0.1);
+  border-radius: 6px;
+}
+
+.brand-container {
+  padding: 16px 16px 24px 76px;
+}
+
+.brand-img {
+  padding-right: 16.5px;
+}
+
+.menu {
+  padding-right: 8px;
+}
+
+.spend-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  width: 120px;
+  height: 58px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #e2edfc;
+  box-shadow: 0px 2px 8px rgba(11, 50, 71, 0.05);
+  border-radius: 6px;
+}
+
+.text-secondary {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  color: #5b5b5b;
+}
+
+.money {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #19b600;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  padding: 16px 0 8px 0;
+  text-align: center;
+  color: #23587b;
+}
+
+.budget-box {
+  width: 120px;
+  height: 56px;
+  margin: 0 auto 20px auto;
+  padding: 4.2px;
+  background: url(./public/Union.svg);
+}
+
+.budget-rapper {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(91.03deg, #ff6d1e -4.95%, #ff9155 99.32%);
+  border-radius: 6px 0px 0px 6px;
+}
+
+.budget-rapper::after {
+  content: url(./public/sideIco.svg);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.budget-rapper > p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.learn-more {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #23587b;
+}
+
+/* common styles */
+
+.flex {
+  display: flex;
+}
+.pointer {
+  cursor: pointer;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
